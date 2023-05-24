@@ -1,0 +1,62 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+#hero {
+    width: 592px;
+    margin: 0 auto 72px; /* 0 top, auto margens laterais e 72px margem inferior abaixo */
+}
+
+#hero img {
+    margin-bottom: 72px; /* espaço inferior abaixo da imagem de 72px */
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 49px;
+    line-height: 56px; /* altura da linha */
+    font-weight: normal; /* espessura da fonte */
+    margin-bottom: 32px;
+}
+
+h1 span {
+    font-weight: bold;
+}
+
+span, a {
+    color: #FF9900;
+}
+
+p {
+    color: #7D7987;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+#footer a {
+    font-size: 14px;
+    line-height: 28px;
+    text-decoration: none;
+}
+
+#footer a + a {
+    margin-left: 28px; /* acrescenta margem na esquerda do a < a / pega o a anterior a ele e acrescenta o margin-left */
+}
+
+#footer {
+    margin-bottom: 34px;
+}
+
+.line {
+    width: 568px;
+    margin: 0 auto 8px;
+    border: 1px solid #e2e2e2;
+}
+
+#balls {
+    position: fixed; /* position fixed usado para fixar o elemento na tela */
+    bottom: 0px;
+    right: 0px;
+}
